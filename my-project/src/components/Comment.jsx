@@ -2,7 +2,7 @@ import { BiUpvote, BiDownvote } from "react-icons/bi";
 import { CgProfile } from "react-icons/cg";
 const Comment = (props) => {
   return (
-    <div className="text-white bg-slate-700 p-3 rounded-md">
+    <div className="text-white bg-slate-700 p-3 rounded-md my-4">
       <div className="flex">
         <CgProfile className="mx-2" />
         {props.user}
